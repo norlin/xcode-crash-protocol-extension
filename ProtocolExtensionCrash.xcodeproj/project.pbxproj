@@ -12,6 +12,7 @@
 		975C63181C6A1140008A1270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975C63161C6A1140008A1270 /* Main.storyboard */; };
 		975C631A1C6A1140008A1270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975C63191C6A1140008A1270 /* Assets.xcassets */; };
 		975C631D1C6A1140008A1270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975C631B1C6A1140008A1270 /* LaunchScreen.storyboard */; };
+		975C63251C6A116C008A1270 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C63241C6A116C008A1270 /* CustomTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		975C63191C6A1140008A1270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		975C631C1C6A1140008A1270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		975C631E1C6A1140008A1270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975C63241C6A116C008A1270 /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				975C63191C6A1140008A1270 /* Assets.xcassets */,
 				975C631B1C6A1140008A1270 /* LaunchScreen.storyboard */,
 				975C631E1C6A1140008A1270 /* Info.plist */,
+				975C63241C6A116C008A1270 /* CustomTableViewController.swift */,
 			);
 			path = ProtocolExtensionCrash;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				975C63151C6A1140008A1270 /* ViewController.swift in Sources */,
+				975C63251C6A116C008A1270 /* CustomTableViewController.swift in Sources */,
 				975C63131C6A1140008A1270 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +288,7 @@
 				975C63231C6A1140008A1270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
